@@ -33,46 +33,6 @@
 			<div class="badge-list col-md-6 col-sm-7">
 				<ul class="nav nav-pills-badge nav-pills">
                 
-					<li>
-						<a href="{{URL::route('feeds',$feed = 1)}}">
-						<img src="{{ asset('img/lol-badge.png') }}">
-						</a>
-					</li>
-					<li>
-						<a href="{{URL::route('feeds',$feed = 2)}}">
-						<img src="{{ asset('img/win-badge.png') }}">
-					</a>
-					</li>
-					<li>
-						<a href="{{URL::route('feeds',$feed = 3)}}">
-						<img src="{{ asset('img/omg.png') }}">
-					</a>
-					</li>
-					<li>
-						<a href="{{URL::route('feeds',$feed = 4)}}">
-						<img src="{{ asset('img/cute.png') }}">
-					</a>
-					</li>
-					<li>
-						<a href="{{URL::route('feeds',$feed = 5)}}">
-						<img src="{{ asset('img/trashy.png') }}">
-					</a>
-					</li>
-					<li>
-						<a href="{{URL::route('feeds',$feed = 6)}}">
-						<img src="{{ asset('img/fail.png') }}">
-					</a>
-					</li>
-					<li>
-						<a href="{{URL::route('feeds',$feed = 7)}}">
-						<img src="{{ asset('img/wtf.png') }}">
-					</a>
-					</li>
-					<li>
-						<a href="{{URL::route('feeds',$feed = 8)}}">
-						<img src="{{ asset('img/trending.png') }}">
-					</a>
-					</li>
 				</ul>
 			</div>
             <div class="secondary-login">

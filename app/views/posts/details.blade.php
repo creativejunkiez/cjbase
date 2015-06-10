@@ -116,41 +116,6 @@ $provenshare = "http://gentleninja.com/buzzfeedclonescript/";?>
 
 				@endif
 			</div>
-				<div class="row" id="feeds">
-					<h4>YOUR REACTION ?</h4>
-					<div class="col-md-1 post-badges">
-						<p class="custom" id="lolcount">{{$lolcount}}</p>
-						<p><a id="lolfeed" href="{{ URL::route('postLikecount', array('like' => '1','postid' => $postid)) }}" >LOL</a></p>
-					</div>
-					<div class="col-md-1 post-badges">
-						<p class="custom" id="omgcount">{{$omgcount}}</p>
-						<p><a id="omgfeed" href="{{ URL::route('postLikecount', array('like' => '3','postid' => $postid)) }}" >OMG</a></p>
-					</div>
-					<div class="col-md-1 post-badges">
-						<p class="custom" id="wincount">{{$wincount}}</p>
-						<p><a id="winfeed" href="{{ URL::route('postLikecount', array('like' => '2','postid' => $postid)) }}" >WIN</a></p>
-					</div>
-					<div class="col-md-1 post-badges">
-						<p class="custom" id="failcount">{{$failcount}}</p>
-						<p><a id="failfeed" href="{{ URL::route('postLikecount', array('like' => '6','postid' => $postid)) }}" >FAIL</a></p>
-					</div>
-					<div class="col-md-1 post-badges">
-						<p class="custom" id="cutecount">{{$cutecount}}</p>
-						<p><a id="cutefeed" href="{{ URL::route('postLikecount', array('like' => '4','postid' => $postid)) }}" >CUTE</a></p>
-					</div>
-					<div class="col-md-1 post-badges">
-						<p class="custom" id="wtfcount">{{$wtfcount}}</p>
-						<p><a id="wtffeed" href="{{ URL::route('postLikecount', array('like' => '7','postid' => $postid)) }}" >WTF</a></p>
-					</div>
-					<div class="col-md-1 post-badges">
-						<p class="custom" id="trashycount">{{$trashycount}}</p>
-						<p><a id="trashyfeed" href="{{ URL::route('postLikecount', array('like' => '5','postid' => $postid)) }}" >TRASHY</a></p>
-					</div>
-					<div class="col-md-1 post-badges">
-						<p class="custom" id="trendcount">{{$trendcount}}</p>
-						<p><a id="trendfeed" href="{{ URL::route('postLikecount', array('like' => '8','postid' => $postid)) }}" >TREND</a></p>
-					</div>
-				</div>
 			<div class = "row">
 				<h3>Contribution</h3>
 				<?php
