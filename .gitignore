@@ -14,3 +14,5 @@ composer.lock
 /app/storage/views/*
 
 /app/config/local/*
+
+.DS_Store
