@@ -1,0 +1,482 @@
+body{
+	background:#fff;
+}
+
+*, body, a, h1, h2, h3, h4, p{
+	font-family: 'Helvetica Neue',Arial, sans-serif;
+}
+
+h5{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+a{
+	color: #0B79E5;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #07529C;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.buzzfeed-navbar{
+	height: 90px;
+}
+
+.logo{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px; 
+}
+
+.badge-list{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.buzzfeed-second-nav{
+	height: 50px;
+}
+
+.buzzfeed-second-nav{
+	background: #EAEAEA;
+	padding-left: 10px;
+}
+
+.second-nav-menu{
+	padding: 0px;
+}
+
+.second-nav-menu a{
+	color: #000;
+	font-size:20px;
+	font-weight: 300;
+	letter-spacing: 0.2px;
+}
+
+.second-nav-menu .nav-pills li{
+	padding: 0px 8px;
+}
+
+.second-nav-menu .nav-pills li a{
+	border-radius: 0px;
+	height: 50px;
+}
+
+.second-nav-menu .nav-pills li a:hover{
+	background: #ffffff;
+}
+
+.hover-hidden{
+	display: none;
+	position: absolute;
+	left:-120px;
+	margin-top:0px;
+	min-height: 300px;
+	min-width: 500px;
+	background-color: #fff;
+	border:1px solid #ccc;
+	z-index: 9999;
+}
+
+.more:hover + .hover-hidden{
+	display: block;
+}
+
+.hover-hidden:hover{
+	display: block;
+}
+
+.hover-hidden-header{
+	padding-top: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.hover-hidden-header p{
+	font-size: 17px;
+}
+
+.hover-hidden-header .btn-blue p a:hover{
+	color: #fff;
+	background-color: #000;
+}
+
+.btn-blue a{
+	margin-left: 10px;
+	padding: 5px 10px;
+	font-size: 14px;
+	background-color: #21929B;
+	color: #fff;
+}
+
+.hover-hidden-second h5{
+	color: #CFCFCF;
+	font-size: 18px;
+}
+
+.hover-hidden-second p{
+	color: #111;
+	font-size: 14px;
+}
+
+.searchbox{
+	padding-top: 5px;
+	text-align: right;
+}
+
+.search-box {
+  -webkit-transition: width 0.6s, border-radius 0.6s, background 0.6s, -webkit-box-shadow 0.6s;
+  transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.search-box + label .icon-search {
+  color: black;
+}
+
+.search-box:hover {
+  color: white;
+  background: #c8c8c8;
+  -webkit-box-shadow: 0 0 0 5px #3d4752;
+  box-shadow: 0 0 0 5px #3d4752;
+}
+.search-box:hover + label .icon-search {
+  color: white;
+}
+.search-box:focus {
+  border: 1px solid #CCC;
+  outline: none;
+  padding-left: 15px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  cursor: text;
+  width: 210px;
+  border-radius: auto;
+  background: #ebebeb;
+  color: black;
+}
+.search-box:focus + label .icon-search {
+  color: black;
+}
+
+.search-box:not(:focus){
+  text-indent: -5000px;
+}
+
+.icon-search{
+	position: relative;
+	left: -33.5px;
+	color: white;
+	cursor: pointer;
+}
+
+.login-icon{
+	text-align: left;
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+.searchbox p i{
+	color: #111;
+	font-size: 21px;
+}
+
+.login-icon p i{
+	color: #111;
+	font-size: 25px;
+}
+
+.part-1{
+	padding: 0px;
+}
+
+.top-slider-image-caption{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-left: 15px;
+	display: none;
+	width: 89%;
+	padding: 0px 5px;
+	background-color: #F9F9F9;
+	color: #fff;
+	font: 13px "Lucida Grande",sans-serif;
+}
+
+.top-slider-image:hover .top-slider-image-caption{
+	display: block;
+}
+
+.nav-pills-badge li:hover img{
+	margin-top: -5px;
+}
+
+.featured-post{
+	margin-top: 10px;
+}
+
+.featured-post-image{
+	min-height: 250px;
+	background: url('http://placehold.it/1200x1000') no-repeat;
+	background-size: 750px 250px;
+	margin-left: 15px;
+}
+
+.featured-post-image p{
+	padding: 10px 20px;
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+	background: rgba(0,0,0,0.5); 
+	width: 50%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.featured-post-image p:hover{
+	background: rgba(000,77,255,0.5);
+}
+
+.post{
+	margin-top: 10px;
+}
+
+.post-content a h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #0077EE;
+}
+
+.post-img{
+	padding: 0px; 
+}
+
+.post-content{
+	padding: 0px;
+}
+
+.post-content h5{
+	font-weight: bold;
+}
+
+.post-content a h3:hover{
+	color: red;
+}
+
+.second-column-post{
+	margin-top: 10px;
+}
+
+.second-column-post-image{
+	min-height: 120px;
+	background: url('http://placehold.it/800x300') no-repeat; 
+	background-size: 340px 120px;
+}
+
+.second-column-post-content{
+	padding: 0px;
+}
+
+.second-column-post-content h4 a:hover{
+	color: red;
+}
+
+.second-column-post-content h4{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.third-column h3{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+.third-column hr{
+	margin-top: 5px;
+	margin-bottom: 0px;
+	background-color: red;
+	height: 1.3px;
+}
+
+.post-ranking{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: red;
+	color: #fff;
+}
+
+.third-column-post{
+	margin-top: 10px;
+}
+
+.third-column-post-img{
+	padding: 0px;
+}
+
+.third-column-post-img-caption{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	background-color:rgba(0,0,0,0.5);
+	color: #fff;
+	width: 128.5%;
+	height: 100%;
+	padding: 5px 10px;
+}
+
+.third-column-post-img-caption p{
+	color: #fff;
+	font-weight: 300;
+}
+
+.third-column-post-img:hover .third-column-post-img-caption{
+	display: block;
+}
+
+.buzzfeed-tab-content{
+	background-color: #E6E6E6;
+}
+
+.space{
+	background-color: #fff;
+	min-height: 3px;
+}
+
+.profile-section .container{
+	background-color: #E6E6E6;
+}
+
+.propic{
+	padding: 10px;
+}
+
+.propic img{
+	width: 83px;
+	height: 83px;
+}
+
+.activity-drafts{
+	background-color: #E6E6E6;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ccc; 
+}
+
+.start-posting-button{
+	padding-top: 40px;
+}
+
+.launch-your-buzz{
+	background-color: #E9E9E9;
+}
+
+.heading{
+	padding: 2px;
+	padding-left: 10px;
+	background-color: #000;
+	color: #fff;
+}
+
+.logged-in{
+	width: 120px;
+	font-weight: bold;
+	position: absolute;
+	display: none;
+	margin-left:-80px;
+	z-index: 999;
+	text-align: right;
+	background-color: #fff;
+	padding-right: 10px;
+}
+
+.logged-in li{
+	list-style:none;
+	padding-bottom: 5px;
+}
+
+.logged-in li a{
+	text-transform: capitalize;
+}
+
+.loggedin-icon{
+	margin-top: 5px;
+}
+.loggedin-icon p i{
+	color: #111;
+	font-size: 25px;
+}
+
+.loggedin-icon:hover .logged-in{
+	display: block;
+}
+
+.social-icons i {
+	font-size: 33px;
+}
+
+.post-badges p{
+	text-align: center;
+}
+
+.post-badges p:nth-child(2){
+	padding: 5px 10px;
+	font-size: 11px;
+	font-weight: bold;
+	width: 55px;
+	text-align: center;
+	background: #FFEE00;
+}
+
+.post-badges p:nth-child(2):hover{
+	cursor: pointer;
+}
+.badgeword {
+    font: bold 10px Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    background: none repeat scroll 0% 0% #F3E40E;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.badgeword p:nth-child(2){
+	padding: 2px 4px;
+	font-size: 10px;
+	font-weight: bold;
+	width: 55px;
+	text-align: center;
+	background: #FFEE00;
+}
+.postlike{
+  background-color:#FFFF00;
+
+}
+.test{
+	background-color: #FFEE00;
+ 	display: inline-block; 
+    text-align: center;
+    margin: 2px 2px;
+    width:4.475%;
+}
+.contentdis img{
+	width: 700px;
+

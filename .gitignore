@@ -2,3 +2,15 @@
 .env.*.php
 .env.php
 .env
+
+/vendor
+composer.lock
+/db
+/uploads/*
+*/*.db
+
+/app/storage/logs/laravel.log
+/app/storage/sessions/*
+/app/storage/views/*
+
+/app/config/local/*

@@ -1,0 +1,71 @@
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row i {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.social-share {
+  background: transparent;
+}
+.social-share i {
+  color: white;
+  padding: 1em;
+  position: relative;
+  background: transparent;
+}
+.social-share i:hover {
+  border-radius: 50%;
+}
+.social-share i:not(:first-child) {
+  margin-left: 1em;
+}
+.social-share i:nth-child(1) {
+  color: #3b5998;
+  border: 2px solid #3b5998;
+}
+.social-share i:nth-child(1):hover {
+  color: white;
+  background: #3b5998;
+}
+.social-share i:nth-child(2) {
+  color: #00a0d1;
+  border: 2px solid #00a0d1;
+}
+.social-share i:nth-child(2):hover {
+  color: white;
+  background: #00a0d1;
+}
+.social-share i:nth-child(3) {
+  color: #db4a39;
+  border: 2px solid #db4a39;
+}
+.social-share i:nth-child(3):hover {
+  color: white;
+  background: #db4a39;
+}
+.social-share i:nth-child(4) {
+  color: #c8232c;
+  border: 2px solid #c8232c;
+}
+.social-share i:nth-child(4):hover {
+  color: white;
+  background: #c8232c;
+}
+.social-share i:nth-child(5) {
+  color: #ea4c89;
+  border: 2px solid #ea4c89;
+}
+.social-share i:nth-child(5):hover {
+  color: white;
+  background: #ea4c89;
+}
