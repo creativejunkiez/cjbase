@@ -19,7 +19,7 @@
 		<div class="container">
 			<div class="logo col-md-6 col-sm-5">
 				<a href="{{URL::route('user-home')}}">
-				<img src="{{ asset('img/logo.png') }}" width="290" height="60"></a>
+				<img src="{{ asset('img/cjlogo.png') }}" width="auto" height="60"></a>
 			</div>
 			<div class="badge-list col-md-6 col-sm-7">
 				<ul class="nav nav-pills-badge nav-pills">

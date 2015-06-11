@@ -40,7 +40,7 @@
 <div class="brand">
 
     <a href="{{URL::route('adminDashboard')}}" class="logo">
-       <img src="{{ asset('img/logo.png') }}" width="190" height="60">
+       <img src="{{ asset('img/cjlogo.png') }}" width="auto" height="60">
     </a>
     <div class="sidebar-toggle-box">
         <div class="fa fa-bars"></div>
